@@ -1,4 +1,4 @@
-#S02.02 – MySQL Queries Practice
+# S02.02 – MySQL Queries Practice
 
 🎯 **Objectives**
 
