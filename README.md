@@ -125,11 +125,9 @@ Download and import **`schema_universidad.sql`** before starting. Explore the E�
 
 🛠️ **Technologies Used**
 
-* **MySQL 8.x** (or **MariaDB 10.5+**)
+* **MySQL 8.x**
 * **SQL** language & functions
 * *Optional* **MySQL Workbench / DBeaver / HeidiSQL** for visual design
-* **Git** for version control
-* **Markdown** for documentation
 
 ---
 
@@ -137,19 +135,18 @@ Download and import **`schema_universidad.sql`** before starting. Explore the E�
 
 ##### 📋 Requirements
 
-* MySQL 8.0+ (or MariaDB 10.5+)
+* MySQL 8.0+
 * A SQL client (Workbench, DBeaver, HeidiSQL…)
 * Schema & seed files located in **`/schemas`**:
 
   * `schema_tienda_structure‑datatest.sql`
   * `schema_universidad_structure‑datatest.sql`
-* Git (optional for version control)
 
 ##### 🛠️ Setup
 
 ```bash
 # Clone this repo
-$ git clone https://github.com/your‑username/s2‑02‑mysql‑queries.git
+$ git clone https://github.com/Apani13/s2-02-mysql-queries.git
 $ cd s2‑02‑mysql‑queries
 
 # Import the Store schema + sample data
@@ -159,35 +156,11 @@ $ mysql -u root -p < schemas/schema_tienda_structure-datatest.sql
 $ mysql -u root -p < schemas/schema_universidad_structure-datatest.sql
 ```
 
-##### ▶️ Execution Examples
-
-```sql
--- Switch to the Store DB
-USE tienda;
-
--- Example: Basic Query #1
-SELECT nombre FROM producto;
-
--- Switch to the University DB
-USE universidad;
-
--- Example: Summary Query #16
-SELECT COUNT(*) AS total_students FROM alumno;
-```
-
-Feel free to paste your solutions into **`queries_tienda.sql`** and **`queries_universidad.sql`**, then run `SOURCE your_file.sql` to test them.
-
 ---
 
 🌐 **Deployment**
 The schemas are portable — run them on a local server, Docker container or cloud database that supports MySQL 8.x syntax.
 
-📦 **Repository Hints**
-
-* Group queries logically inside the SQL files using `-- --------` dividers.
-* Name branches after the task: `feat/tienda-basic-queries`.
 
 ✅ **Author Notes**
-Solving the same question in multiple ways (JOIN vs. sub‑query) is encouraged. Be extra‑careful with `NULL` handling – many edge cases hide there.
-
 **Happy querying!** 🚀
