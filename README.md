@@ -1,4 +1,4 @@
-S02.02 – MySQL Queries Practice
+#S02.02 – MySQL Queries Practice
 
 🎯 **Objectives**
 
@@ -16,8 +16,6 @@ S02.02 – MySQL Queries Practice
 | 🥉 **Level 1 (Basic)**        | ≥ 37 queries solved **and** ≥ 20 University queries  | Single‑table SELECT, simple filtering & ordering    |
 | 🥈 **Level 2 (Intermediate)** | 37‑56 queries solved **and** ≥ 20 University queries | JOINs, grouping, basic sub‑queries                  |
 | 🥇 **Level 3 (Advanced)**     | > 56 queries solved **and** ≥ 20 University queries  | Complex joins, correlated sub‑queries, optimisation |
-
-> **Tip:** Submit solutions in small, self‑contained commits – the reviewer will thank you!
 
 ---
 
