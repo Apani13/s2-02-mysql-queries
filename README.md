@@ -161,6 +161,6 @@ $ mysql -u root -p < schemas/schema_universidad_structure-datatest.sql
 🌐 **Deployment**
 The schemas are portable — run them on a local server, Docker container or cloud database that supports MySQL 8.x syntax.
 
+---
 
-✅ **Author Notes**
 **Happy querying!** 🚀
